@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffa500;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-box button {
+  padding: 10px 20px;
+  background: #ffa500;
+  color: #1e1e2f;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.input-box button:hover {
+  background: #ffbf00;
+}
+
+.result-card {
+  background: #2b2b3f;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.result-card h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #ffa500;
+}
+
+.result-card .timer {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.result-card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.result-card p span {
+  font-weight: bold;
+}
