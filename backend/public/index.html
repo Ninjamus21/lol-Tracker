@@ -16,7 +16,12 @@
     </div>
 
     <div id="result" class="result-card">
-        <p class="placeholder">Enter summoner info above and click "Get Last Game"</p>
+        <!-- Token placeholder will be injected/updated by script.js -->
+        <div class="token-wrap" id="tokenWrap" aria-hidden="true"></div>
+        <!-- Stats go into statsWrap so we can update them without removing the token element -->
+        <div id="statsWrap">
+          <p class="placeholder">Enter summoner info above and click "Get Last Game"</p>
+        </div>
     </div>
 </div>
 
